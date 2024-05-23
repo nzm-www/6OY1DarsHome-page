@@ -1,0 +1,104 @@
+.hed-btn {
+  transition: all 0.3s ease-in-out;
+}
+
+.hed-btn {
+  width: 160px;
+  height: 48px;
+  background-image: linear-gradient(135deg, #d87d4a 0%, #d87d4a 100%);
+  box-shadow: rgba(146, 146, 146, 0.19) 0px 10px 20px,
+    rgba(141, 141, 141, 0.23) 0px 6px 6px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-family: Manrope, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: -1px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.hed-btn:hover {
+  transform: translateY(3px);
+  box-shadow: none;
+}
+
+.hed-btn:active {
+  opacity: 0.5;
+}
+/*  */
+.hed-btnn {
+  font-family: Manrope, sans-serif;
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #000000;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.hed-btnn:hover {
+  background-color: #d87d4a;
+  box-shadow: 0px 15px 20px rgba(135, 158, 149, 0.662);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.hed-btnn:active {
+  transform: translateY(-1px);
+}
+/* zx7 */
+.zx7btn {
+  color: rgb(0, 0, 0);
+  font-family: Manrope, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: -1px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.zx7btn {
+  padding: 0.8em 1.8em;
+  border: 2px solid #000000;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  transition: 0.3s;
+  z-index: 1;
+  font-family: inherit;
+  color: #000000;
+}
+
+.zx7btn::before {
+  content: "";
+  width: 0;
+  height: 300%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: #d87d4a;
+  transition: 0.5s ease;
+  display: block;
+  z-index: -1;
+}
+
+.zx7btn:hover::before {
+  width: 105%;
+}
+.zx7btn:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}

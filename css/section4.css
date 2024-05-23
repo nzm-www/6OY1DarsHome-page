@@ -1,0 +1,40 @@
+.section4 {
+  background-color: #fff;
+}
+.all {
+  position: relative;
+  margin-top: -80px;
+  top: -150px;
+  left: 100px;
+}
+.zx7h2 {
+  color: rgb(0, 0, 0);
+  font-family: Manrope, sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: -1px;
+  letter-spacing: 2px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.alll {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 95px;
+  width: 540px;
+  height: 320px;
+  border-radius: 8px;
+  background: rgb(241, 241, 241);
+}
+.yx1kalonki {
+  -webkit-filter: brightness(50%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.yx1kalonki:hover {
+  -webkit-filter: brightness(100%);
+}

@@ -1,0 +1,36 @@
+.section5 {
+  background: #ffffff;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.wr {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.fr-h2 {
+  font-family: Manrope, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 1.43px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.fr-p {
+  color: rgba(0, 0, 0, 0.479);
+  font-family: Manrope, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0px;
+}
+.brat {
+  transition: 1s ease;
+}
+.brat:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 1s ease;
+}
